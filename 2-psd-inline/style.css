@@ -1,0 +1,527 @@
+@import url("https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --tit: "Titillium Web", sans-serif;
+}
+
+.container {
+  max-width: 1100px;
+  margin: auto;
+}
+
+.btn {
+  display: block;
+  margin: auto;
+  font: 600 18px var(--tit);
+  letter-spacing: 0px;
+  line-height: 26px;
+  color: #ffffff;
+  border: none;
+  border-radius: 4px;
+  padding: 30px 80px;
+  margin-top: 60px;
+}
+
+/* header css start */
+
+header {
+  background-color: #87509c;
+}
+
+nav {
+  padding-top: 60px;
+}
+
+nav ul {
+  float: right;
+  padding-top: 15px;
+}
+
+nav ul li {
+  display: inline;
+  margin-left: 25px;
+  padding: 10px 20px;
+}
+
+nav ul li a {
+  font: 400 16px var(--tit);
+  line-height: 18px;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+nav ul li.active,
+nav ul li:hover {
+  background-color: #643a79;
+  padding: 10px 20px;
+  border-radius: 4px;
+}
+
+.header-body {
+  padding-bottom: 145px;
+}
+
+.header-body h1 {
+  font: bold 42px var(--tit);
+  line-height: 49px;
+  color: #f7f3ea;
+  text-align: center;
+  margin-top: 140px;
+}
+
+.header-body button {
+  background-color: #eb7d4b;
+  border-bottom: 4px solid #c86a40;
+}
+
+/*----------------------------SECTION CSS----------------------------------*/
+
+.section h2 {
+  font: bold 40px var(--tit);
+  letter-spacing: 4px;
+  line-height: 30px;
+  text-align: center;
+  padding-top: 120px;
+}
+
+.section hr {
+  display: block;
+  width: 87px;
+  height: 4px;
+  border: none;
+  margin: 20px auto;
+}
+
+.section p {
+  font: 400 18px var(--tit);
+  letter-spacing: 0px;
+  line-height: 26px;
+  text-align: center;
+  margin: auto;
+}
+
+.section-body {
+  margin-top: 80px;
+  padding-bottom: 130px;
+}
+
+.section-body div {
+  display: inline-block;
+  text-align: center;
+}
+
+.section-body h3 {
+  font: bold 24px var(--tit);
+  letter-spacing: 0px;
+  line-height: 18px;
+  margin-top: 60px;
+  text-transform: uppercase;
+}
+
+.section-body p {
+  width: 204px;
+  font: 300 16px var(--tit);
+  letter-spacing: 0px;
+  line-height: 24px;
+  text-align: center;
+}
+
+/*------------------------------ SERVICE  css start ------------------------------*/
+
+#service {
+  background-color: #17c2a4;
+}
+
+#service h2 {
+  color: #ffffff;
+}
+
+#service hr {
+  background-color: #14a58c;
+}
+
+#service p {
+  color: #ffffff;
+}
+
+#service .section-body div {
+  margin-left: 50px;
+}
+
+#service .section-body h3 {
+  color: #ffffff;
+  margin-bottom: 25px;
+}
+
+#service .section-body p {
+  color: #ffffff;
+}
+
+/* ---------------------------------TEAM css start ------------------------------*/
+
+#team {
+  background-color: #e7f1f8;
+}
+
+#team h2 {
+  color: #3c4761;
+}
+
+#team hr {
+  background-color: #c8d9e5;
+}
+
+#team p {
+  color: #9ba6b5;
+}
+
+#team .section-body div {
+  margin-left: 30px;
+}
+
+.disk {
+  background-color: #878787;
+}
+
+#team .disk {
+  width: 200px;
+  height: 200px;
+  border-radius: 100px;
+  margin: auto;
+}
+
+#team .section-body h3 {
+  color: #677286;
+  margin-bottom: 15px;
+}
+
+#team .section-body h6 {
+  font: 400 16px var(--tit);
+  letter-spacing: 0px;
+  line-height: 18px;
+  color: #30bae7;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+#team .section-body p {
+  color: #919bac;
+}
+
+#team .social-menu ul {
+  padding-top: 40px;
+}
+
+#team .social-menu ul li {
+  display: inline;
+  padding-right: 20px;
+}
+
+#team .social-menu ul li a {
+  display: inline-block;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background-color: #bdd1df;
+  position: relative;
+}
+
+#team .social-menu ul li i {
+  color: #fff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* ---------------------------------SKILLS css start ------------------------------*/
+
+#skills {
+  background-color: #ffffff;
+}
+
+#skills h2 {
+  color: #3c4761;
+}
+
+#skills hr {
+  background-color: #dfe8ed;
+}
+
+#skills p {
+  color: #3c4761;
+}
+
+.skills-body {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 80px;
+  padding-bottom: 130px;
+}
+
+#skills .circle {
+  width: 200px;
+  height: 200px;
+  background-color: #fff;
+  border: 15px solid #dfe8ed;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font: 300 50px var(--tit);
+  font-size: 50px;
+  letter-spacing: 1px;
+  line-height: 21px;
+  color: #3c4761;
+}
+
+#webdesign .circle {
+  border: 15px solid #30bae7;
+}
+
+#html-css .circle {
+  border: 15px solid #d74680;
+}
+
+#graphicdesign .circle {
+  border: 15px solid #15c7a8;
+}
+
+#ui-ux .circle {
+  border: 15px solid #eb7d4b;
+}
+
+.skills-body h4 {
+  font: bold 24px var(--tit);
+  letter-spacing: 0px;
+  line-height: 18px;
+  color: #3c4761;
+  text-transform: uppercase;
+  text-align: center;
+  padding-top: 30px;
+}
+
+/* ---------------------------------PORTFOLIO css start ------------------------------*/
+
+#portfolio {
+  background-color: #ffdd99;
+  padding-bottom: 110px;
+}
+
+#portfolio h2 {
+  color: #393939;
+}
+
+#portfolio hr {
+  background-color: #e5c37f;
+}
+
+#portfolio p {
+  color: #393939;
+}
+
+#portfolio .menu ul {
+  text-align: center;
+  padding: 55px 0;
+}
+
+#portfolio .menu ul li {
+  display: inline-block;
+  padding: 10px 30px;
+  background-color: #ebc985;
+  border-radius: 4px;
+  margin-left: 10px;
+}
+
+#portfolio .menu ul li a {
+  text-decoration: none;
+  text-transform: uppercase;
+  font: 400 18px var(--tit);
+  letter-spacing: 0px;
+  line-height: 20px;
+  color: #393939;
+}
+
+#portfolio .menu ul li.active,
+#portfolio .menu ul li:hover {
+  padding: 10px 30px;
+  background-color: #fff;
+  border-radius: 4px;
+}
+
+.portfolio-body div {
+  display: inline-block;
+}
+
+.portfolio-body div img {
+  display: block;
+}
+
+.portfolio-body p {
+  font: 400 18px var(--tit);
+  letter-spacing: 0px;
+  line-height: 20px;
+  color: #393939;
+  text-transform: uppercase;
+  text-align: center;
+  padding-top: 35px;
+  padding-bottom: 65px;
+}
+
+#portfolio button {
+  background-color: #17c2a4;
+  border-bottom: 4px solid #14a58c;
+}
+
+/* ---------------------------------TESTIMONIALS css start ------------------------------*/
+
+#testimonials {
+  background-color: #d74680;
+  padding-bottom: 110px;
+}
+
+#testimonials h2 {
+  color: #fff;
+}
+
+#testimonials hr {
+  background-color: #b73c6d;
+}
+
+#testimonials p {
+  color: #fff;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+  margin: 50px 0;
+}
+
+.test {
+  display: flex;
+  justify-content: space-between;
+}
+
+.flex img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.flex p {
+  font: italic 400 21px var(--tit);
+  max-width: 297px;
+  letter-spacing: 0px;
+  line-height: 31px;
+  color: #ffffff;
+  text-align: left;
+}
+
+.flex h3 {
+  font: bold 24px var(--tit);
+  letter-spacing: 0px;
+  line-height: 26px;
+  color: #ffffff;
+}
+
+.flex a {
+  font: 400 18px var(--tit);
+  letter-spacing: 0px;
+  line-height: 26px;
+  color: #ffdd99;
+  text-decoration: none;
+}
+
+/* ---------------------------------GET IN TOUCH css start ------------------------------*/
+
+#get-in-touch {
+  background-color: #3c5499;
+  padding-bottom: 110px;
+}
+
+#get-in-touch h2 {
+  color: #fff;
+}
+
+#get-in-touch hr {
+  background-color: #273a71;
+}
+
+#get-in-touch p {
+  color: #fff;
+}
+
+.get-body form {
+  padding-top: 80px;
+  max-width: 880px;
+  margin: auto;
+}
+
+.get-body #form {
+  display: flex;
+  justify-content: space-between;
+}
+
+.get-body form input {
+  width: 410px;
+  padding: 25px 0 25px 25px;
+}
+
+.get-body form textarea {
+  width: calc(100% - 25px);
+  margin-top: 25px;
+  resize: vertical;
+  padding-top: 25px;
+  padding-left: 25px;
+}
+
+.get-body form input,
+textarea {
+  background-color: #273a71;
+  border-radius: 4px;
+  border: none;
+  outline: none;
+}
+
+.get-body form ::placeholder {
+  color: #fff;
+  font: 400 18px var(--tit);
+  line-height: 18px;
+}
+
+#get-in-touch button {
+  background-color: #30bae7;
+  border-bottom: 4px solid #299ec5;
+}
+
+#social {
+  background-color: #344b8e;
+  padding: 45px 0;
+}
+
+#social #justify {
+  display: flex;
+  justify-content: space-between;
+}
+
+#social .container a {
+  display: block;
+  text-decoration: none;
+  color: #fff;
+  font: 600 24px var(--tit);
+  letter-spacing: 0px;
+  line-height: 30px;
+  color: #ffffff;
+}
+
+#social .container a.active,
+#social .container a:hover {
+  color: #30bae7;
+}
